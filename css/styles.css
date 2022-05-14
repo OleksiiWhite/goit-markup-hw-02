@@ -41,6 +41,24 @@ body {
   color: var(--primary-white-color);
 }
 
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.button-radio {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+
+.button-radio:hover,
+.button-radio:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
 .section {
   color: var(--title-text-color);
 }
