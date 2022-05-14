@@ -19,6 +19,21 @@ body {
   color: var(--primary-text-color);
 }
 
+.logo.black {
+  color: var(--title-text-color);
+}
+
+.logo.white {
+  color: var(--primary-white-color);
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+
+.link {
+  text-decoration-line: none;
+}
 .list {
   list-style: none;
 }
@@ -38,7 +53,7 @@ body {
   color: var(--title-text-color);
 }
 
-.bgcomand {
+.comand {
   background-color: var(--secondary-bgcolor);
 }
 
@@ -50,6 +65,10 @@ body {
   background-color: var(--head-footer-bgcolor);
 }
 
+.profession,
+.exampl {
+  color: var(--primary-text-color);
+}
 .site-nav .link {
   color: var(--title-text-color);
 }
@@ -73,12 +92,9 @@ body {
 
 .adress .link {
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
 }
 
 .adress .link.post {
   color: var(--primary-white-color);
-}
-.adress .link:hover,
-.adress .link:focus {
-  color: var(--accent-color);
 }
