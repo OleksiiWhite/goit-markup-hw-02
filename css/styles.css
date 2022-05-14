@@ -1,0 +1,84 @@
+/* цвет основного текста #757575 */
+/* вторичный цвет текста  #212121 */
+/* белый текст и фон #FFFFFF  */
+/* акцент #2196F3 */
+/* цвет фона шапки и футера #2F303A */
+/*цвет фона секции наша команда и фона радиокнопок #F5F4FA */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --head-footer-bgcolor: #2f303a;
+  --secondary-bgcolor: #f5f4fa;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+.hero-title {
+  color: var(--primary-white-color);
+}
+
+.section {
+  color: var(--title-text-color);
+}
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+.title {
+  color: var(--title-text-color);
+}
+
+.bgcomand {
+  background-color: var(--secondary-bgcolor);
+}
+
+.footer {
+  background-color: var(--head-footer-bgcolor);
+}
+
+.hero {
+  background-color: var(--head-footer-bgcolor);
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.contact .link {
+  color: var(--primary-text-color);
+}
+
+.contact .link:hover,
+.contact .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.adress .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.adress .link.post {
+  color: var(--primary-white-color);
+}
+.adress .link:hover,
+.adress .link:focus {
+  color: var(--accent-color);
+}
