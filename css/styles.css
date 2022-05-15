@@ -202,6 +202,13 @@ body {
   font-style: normal;
 }
 
+.adress .link:hover,
+.adress .link:focus,
+.adress .link.post:hover,
+.link.post:focus {
+  color: var(--accent-color);
+}
+
 .adress .link.post {
   color: var(--primary-white-color);
   font-size: 14px;
