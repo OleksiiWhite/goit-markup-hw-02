@@ -15,11 +15,26 @@
 }
 
 body {
+  font-family: 'Roboto', sans-serif;
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+  letter-spacing: 0.03em;
 }
 
-.logo.black {
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 0.03em;
+
   color: var(--title-text-color);
 }
 
@@ -37,38 +52,83 @@ body {
 .list {
   list-style: none;
 }
-.hero-title {
-  color: var(--primary-white-color);
-}
 
 .button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  vertical-align: center;
+  letter-spacing: 0.06em;
 }
 
-.button-radio {
+.filter {
+  font-family: 'Roboto', sans-serif;
   color: var(--title-text-color);
   background-color: #f5f4fa;
   cursor: pointer;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  vertical-align: top;
+  letter-spacing: 0.03;
 }
 
-.button-radio:hover,
-.button-radio:focus {
+.filter:hover,
+.filter:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
 
-.section {
-  color: var(--title-text-color);
+.hero {
+  background-color: var(--head-footer-bgcolor);
+  text-align: center;
+}
+.hero-title {
+  color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.5;
+  vertical-align: top;
+  letter-spacing: 0.06em;
 }
 
 .section-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  vertical-align: top;
+  letter-spacing: 0.03em;
 }
 
 .title {
   color: var(--title-text-color);
+}
+.people .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+  text-align: center;
+  vertical-align: top;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-workes .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 0.06em;
 }
 
 .comand {
@@ -79,16 +139,45 @@ body {
   background-color: var(--head-footer-bgcolor);
 }
 
-.hero {
-  background-color: var(--head-footer-bgcolor);
-}
+.profession {
+  color: var(--primary-text-color);
 
-.profession,
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.17;
+  text-align: center;
+  vertical-align: top;
+  letter-spacing: 0.03em;
+}
 .exampl {
   color: var(--primary-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 0.03em;
 }
+
+.list.skill > .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 0.03em;
+}
+
 .site-nav .link {
   color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -98,6 +187,13 @@ body {
 
 .contact .link {
   color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 0.02em;
 }
 
 .contact .link:hover,
@@ -115,4 +211,10 @@ body {
 
 .adress .link.post {
   color: var(--primary-white-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 0.03em;
 }
