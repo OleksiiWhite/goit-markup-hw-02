@@ -195,7 +195,7 @@ body {
   letter-spacing: 0.03;
 
   color: var(--title-text-color);
-  background-color: #f5f4fa;
+  background-color: var(--secondary-bgcolor);
 }
 
 .filter:hover,
